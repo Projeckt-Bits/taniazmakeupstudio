@@ -40,23 +40,19 @@ class ScrollFrameAnimation {
 
     setupCanvas() {
         const resize = () => {
+            // Get the actual CSS-rendered size of the canvas
+            const displayWidth = this.canvas.clientWidth || window.innerWidth;
+            const displayHeight = this.canvas.clientHeight || window.innerHeight;
+
             // Use device pixel ratio for crisp rendering
             const dpr = window.devicePixelRatio || 1;
-            const displayWidth = window.innerWidth;
-            const displayHeight = window.innerHeight;
 
-            // Set canvas internal size for high DPI
+            // Set canvas internal buffer size for high DPI
+            // This is the actual pixel resolution of the canvas
             this.canvas.width = displayWidth * dpr;
             this.canvas.height = displayHeight * dpr;
 
-            // Scale canvas back to display size via CSS
-            this.canvas.style.width = displayWidth + 'px';
-            this.canvas.style.height = displayHeight + 'px';
-
-            // Scale the context to match
-            this.ctx.scale(dpr, dpr);
-
-            // Store display dimensions for drawing
+            // Store display dimensions for drawing (the CSS size, not buffer size)
             this.displayWidth = displayWidth;
             this.displayHeight = displayHeight;
             this.dpr = dpr;
