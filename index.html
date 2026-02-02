@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tania's Makeup Studio & Academy | Best Bridal Makeup Artist in Siliguri</title>
+    <meta name="description"
+        content="Tania's Makeup Studio & Academy - Premium bridal makeup, party makeup, and makeup training in Siliguri. 15+ years of expertise in creating stunning looks.">
+    <meta name="keywords"
+        content="bridal makeup siliguri, makeup artist, beauty salon, makeup academy, party makeup, hair styling">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lato:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon"></div>
+            <span class="preloader-text">Tania's Makeup Studio</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Tania's</span>
+                <span class="logo-subtext">Makeup Studio</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#booking" class="nav-link">Book Now</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="nav-close" id="nav-close"><i class="fas fa-times"></i></button>
+            </div>
+
+            <div class="nav-actions">
+                <a href="tel:+917602014901" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 76020 14901</span>
+                </a>
+                <button class="nav-toggle" id="nav-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Scroll-Based Frame Animation -->
+        <section class="hero-scroll-container" id="home">
+            <!-- Canvas for frame animation -->
+            <canvas class="hero-canvas" id="hero-canvas"></canvas>
+
+            <!-- Overlay gradient -->
+            <div class="hero-overlay"></div>
+
+            <!-- Hero Content -->
+            <div class="hero-content-wrapper" id="hero-content-wrapper">
+                <div class="hero-content">
+                    <span class="hero-subtitle animate-fadeInUp">Premium Bridal Makeup Studio</span>
+                    <h1 class="hero-title animate-fadeInUp delay-1">The Art of <span class="text-accent">Timeless</span>
+                        Beauty</h1>
+                    <p class="hero-description animate-fadeInUp delay-2">Experience luxurious bridal transformations
+                        with 15+ years of expertise in creating stunning, flawless looks for your special day.</p>
+                    <div class="hero-buttons animate-fadeInUp delay-3">
+                        <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                        <a href="#services" class="btn btn-outline">Our Services</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="hero-scroll-indicator" id="hero-scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="scroll-line"></div>
+            </div>
+
+            <!-- Progress indicator -->
+            <div class="scroll-progress" id="scroll-progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-images reveal-left">
+                        <div class="about-img-main">
+                            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=80"
+                                alt="Makeup Studio Interior">
+                            <div class="experience-badge">
+                                <span class="exp-number">15+</span>
+                                <span class="exp-text">Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="about-img-secondary">
+                            <img src="https://images.unsplash.com/photo-1457972729786-0411a3b2b626?w=400&q=80"
+                                alt="Makeup Artist at Work">
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal-right">
+                        <span class="section-subtitle">Learn About Us</span>
+                        <h2 class="section-title">A Perfect Destination for <span class="text-accent">Captivating</span>
+                            Your Look</h2>
+                        <p class="about-text">
+                            <strong>Tania's Makeup Studio & Academy</strong>, founded in 2016, is an ideal place for
+                            professional beauty services, where you can experience personalised makeup and hairstyling
+                            designed to complement your wedding attire and theme.
+                        </p>
+                        <p class="about-text">
+                            At the makeup studio, the iconic bridal makeup artist, <strong>Mrs. Tania Sarkar
+                                Paul</strong>, and her expert team play a vital role in curating your look and ensuring
+                            you appear radiant and confident on your special day.
+                        </p>
+
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                                <div class="feature-info">
+                                    <h4>Premium Products</h4>
+                                    <p>International cosmetic brands</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fas fa-award"></i></div>
+                                <div class="feature-info">
+                                    <h4>Expert Artists</h4>
+                                    <p>Certified professionals</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                                <div class="feature-info">
+                                    <h4>Personal Touch</h4>
+                                    <p>Customized bridal looks</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-buttons">
+                            <a href="#booking" class="btn btn-primary">Make Appointment</a>
+                            <a href="tel:+917602014901" class="btn btn-icon">
+                                <i class="fas fa-phone"></i>
+                                <span>Call Now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">What We Offer</span>
+                    <h2 class="section-title">Our Premium <span class="text-accent">Services</span></h2>
+                    <p class="section-description">Experience the finest beauty services tailored to make your special
+                        moments extraordinary</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal-up">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&q=80"
+                                alt="Bridal Makeup">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-crown"></i></div>
+                            <h3 class="service-title">Bridal Makeup</h3>
+                            <p class="service-description">Adding a touch of luxury to your look, perfectly
+                                complementing your wedding apparel.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card reveal-up delay-1">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&q=80"
+                                alt="Party Makeup">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-glass-cheers"></i></div>
+                            <h3 class="service-title">Party Makeup</h3>
+                            <p class="service-description">Enhancing your look for any social events with the
+                                application of advanced formulas.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card reveal-up delay-2">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&q=80"
+                                alt="Pre-wedding Makeup">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-camera"></i></div>
+                            <h3 class="service-title">Pre-wedding Makeup</h3>
+                            <p class="service-description">Ensuring long-lasting flawless look for your pre-wedding
+                                photoshoot, engagement etc.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card reveal-up">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=500&q=80"
+                                alt="Reception Makeup">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-star"></i></div>
+                            <h3 class="service-title">Reception Makeup</h3>
+                            <p class="service-description">Helping to achieve a stunning bridal look for your reception
+                                with premium cosmetics.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card reveal-up delay-1">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&q=80"
+                                alt="Hair Styling">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-magic"></i></div>
+                            <h3 class="service-title">Hair Styling</h3>
+                            <p class="service-description">Crafting elegant and custom-styled hairdos to enhance and
+                                complete your bridal style.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card reveal-up delay-2">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=500&q=80"
+                                alt="Nail Extension">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-hand-sparkles"></i></div>
+                            <h3 class="service-title">Nail Extension</h3>
+                            <p class="service-description">Adding artificial enhancements to your natural nails to
+                                create a beautifully aesthetic look.</p>
+                            <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card-wide reveal-up">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=800&q=80"
+                                alt="Makeup Training">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h3 class="service-title">Makeup Training</h3>
+                            <p class="service-description">Guiding students through hands-on training to master the
+                                techniques of makeup artistry from basic to advanced levels.</p>
+                            <a href="#booking" class="service-link">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Makeup Types Section -->
+        <section class="section makeup-types">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Indulge In Luxury</span>
+                    <h2 class="section-title">Premium <span class="text-accent">Makeup</span> Options</h2>
+                    <p class="section-description">Choose from our range of luxury makeup techniques for your radiant
+                        look</p>
+                </div>
+
+                <div class="makeup-grid">
+                    <div class="makeup-card reveal-up">
+                        <div class="makeup-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h3 class="makeup-title">HD Makeup</h3>
+                        <p class="makeup-description">Boosting your look with advanced makeup application for a smooth
+                            and natural appearance.</p>
+                        <div class="makeup-features">
+                            <span><i class="fas fa-check"></i> Natural finish</span>
+                            <span><i class="fas fa-check"></i> Camera-ready</span>
+                        </div>
+                    </div>
+
+                    <div class="makeup-card reveal-up delay-1">
+                        <div class="makeup-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="makeup-title">Ultra HD Makeup</h3>
+                        <p class="makeup-description">Employing cosmetic formulations to create a silky and true-to-skin
+                            finish for your special day.</p>
+                        <div class="makeup-features">
+                            <span><i class="fas fa-check"></i> Flawless coverage</span>
+                            <span><i class="fas fa-check"></i> 4K camera-ready</span>
+                        </div>
+                    </div>
+
+                    <div class="makeup-card reveal-up delay-2">
+                        <div class="makeup-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="makeup-title">Water-resistant</h3>
+                        <p class="makeup-description">Helping you to achieve a long-lasting and seamless look with our
+                            water-resistant cosmetics.</p>
+                        <div class="makeup-features">
+                            <span><i class="fas fa-check"></i> Sweat-proof</span>
+                            <span><i class="fas fa-check"></i> Long-lasting</span>
+                        </div>
+                    </div>
+
+                    <div class="makeup-card reveal-up delay-3">
+                        <div class="makeup-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3 class="makeup-title">Airbrush Makeup</h3>
+                        <p class="makeup-description">Creating an even finish through our signature makeup artistry to
+                            make your day momentous.</p>
+                        <div class="makeup-features">
+                            <span><i class="fas fa-check"></i> Even coverage</span>
+                            <span><i class="fas fa-check"></i> Lightweight feel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section gallery" id="gallery">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Our Portfolio</span>
+                    <h2 class="section-title">Work <span class="text-accent">Gallery</span></h2>
+                    <p class="section-description">Browse through our stunning bridal transformations</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-item-tall reveal-up"
+                        data-src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80"
+                            alt="Bridal Look 1">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-up delay-1"
+                        data-src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&q=80"
+                            alt="Bridal Look 2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-up delay-2"
+                        data-src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80"
+                            alt="Bridal Look 3">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-wide reveal-up"
+                        data-src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80"
+                            alt="Hair Styling">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-up delay-1"
+                        data-src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=80" alt="Studio">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item gallery-item-tall reveal-up delay-2"
+                        data-src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&q=80"
+                            alt="Makeup Training">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-up"
+                        data-src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=600&q=80"
+                            alt="Makeup Products">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-up delay-1"
+                        data-src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80"
+                            alt="Nail Art">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+            <button class="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+            <div class="lightbox-content">
+                <img src="" alt="Gallery Image" id="lightbox-img">
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Stories From</span>
+                    <h2 class="section-title">Our Happy <span class="text-accent">Clients</span></h2>
+                </div>
+
+                <div class="testimonials-carousel reveal-up">
+                    <div class="testimonials-track" id="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80"
+                                    alt="Client" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Sayoshi</h4>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <i class="fab fa-google testimonial-platform"></i>
+                            </div>
+                            <p class="testimonial-text">"A wonderful experience with most friendly staff. Thanks for
+                                your great service! They made me feel so special on my wedding day."</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80"
+                                    alt="Client" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Deeya Chowdhury</h4>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <i class="fab fa-google testimonial-platform"></i>
+                            </div>
+                            <p class="testimonial-text">"Amazing experience. The team is incredibly talented and know
+                                exactly how to bring out the best in your look. Highly recommended!"</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&q=80"
+                                    alt="Client" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Arpita Karmakar</h4>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <i class="fab fa-google testimonial-platform"></i>
+                            </div>
+                            <p class="testimonial-text">"Tania's handiwork is very beautiful, perfect and deft. She
+                                became more and more beautiful with the touch of her brush. Absolutely stunning!"</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80"
+                                    alt="Client" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Simi Das</h4>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <i class="fab fa-google testimonial-platform"></i>
+                            </div>
+                            <p class="testimonial-text">"Absolutely loved my experience! The staff are friendly,
+                                professional, and really know their work. The ambiance is relaxing and the service was
+                                top-notch."</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+                                    alt="Client" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name">Rohit Shil</h4>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <i class="fab fa-google testimonial-platform"></i>
+                            </div>
+                            <p class="testimonial-text">"Best salon in Siliguri. Had a very good experience with the
+                                service. The attention to detail is remarkable. Highly recommend!"</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-nav">
+                        <button class="testimonial-btn testimonial-prev" aria-label="Previous testimonial">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="testimonial-btn testimonial-next" aria-label="Next testimonial">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq" id="faq">
+            <div class="container">
+                <div class="faq-grid">
+                    <div class="faq-image reveal-left">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80"
+                            alt="Makeup Artist">
+                        <div class="faq-badge">
+                            <i class="fas fa-question"></i>
+                        </div>
+                    </div>
+
+                    <div class="faq-content reveal-right">
+                        <span class="section-subtitle">FAQs</span>
+                        <h2 class="section-title">Helpful <span class="text-accent">Insights</span></h2>
+
+                        <div class="accordion" id="faq-accordion">
+                            <div class="accordion-item active">
+                                <button class="accordion-header">
+                                    <span>Can you match the bridal look to my wedding theme?</span>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Absolutely! Every bridal look is carefully crafted to harmonize with your dress,
+                                        theme, and personal style, ensuring a radiant and cohesive appearance.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>How does makeup work for sensitive skin?</span>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Our expert uses gentle, hypoallergenic products and tailors the makeup to your
+                                        specific skin type. A patch test can also be arranged ahead of your wedding day
+                                        for added confidence and safety.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>Do you provide on-location services?</span>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Yes, we provide on-location makeup and hairstyling services, ensuring a
+                                        convenient and stress-free experience for the bride and her bridal party.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>When should I book my bridal makeup?</span>
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We recommend booking 2-3 months in advance to secure your preferred date and
+                                        schedule a trial session.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner reveal-up">
+            <div class="container">
+                <div class="cta-content">
+                    <span class="cta-label">Learn. Create. Master.</span>
+                    <h2 class="cta-title">Makeup Training from Basic to Advance</h2>
+                    <p class="cta-text">Join our academy and learn the art of professional makeup from industry experts
+                    </p>
+                    <a href="#booking" class="btn btn-light">Enroll Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section class="section booking" id="booking">
+            <div class="container">
+                <div class="booking-grid">
+                    <div class="booking-form-container reveal-left">
+                        <span class="section-subtitle">Fix A Meeting</span>
+                        <h2 class="section-title">Book Your <span class="text-accent">Appointment</span></h2>
+
+                        <form class="booking-form" id="booking-form" action="https://formspree.io/f/xwpkjbvz"
+                            method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="booking-name">Full Name</label>
+                                    <input type="text" id="booking-name" name="name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="booking-phone">Phone Number</label>
+                                    <input type="tel" id="booking-phone" name="phone" placeholder="+91 XXXXX XXXXX"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="booking-email">Email Address</label>
+                                <input type="email" id="booking-email" name="email" placeholder="your@email.com"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="booking-service">Select Service</label>
+                                <select id="booking-service" name="service" required>
+                                    <option value="">Choose a service</option>
+                                    <option value="Bridal Makeup">Bridal Makeup</option>
+                                    <option value="Party Makeup">Party Makeup</option>
+                                    <option value="Pre-wedding Makeup">Pre-wedding Makeup</option>
+                                    <option value="Reception Makeup">Reception Makeup</option>
+                                    <option value="Hair Styling">Hair Styling</option>
+                                    <option value="Nail Extension">Nail Extension</option>
+                                    <option value="Makeup Training">Makeup Training</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="booking-date">Preferred Date</label>
+                                    <input type="date" id="booking-date" name="date" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="booking-time">Preferred Time</label>
+                                    <select id="booking-time" name="time" required>
+                                        <option value="">Select time</option>
+                                        <option value="11:00 AM">11:00 AM</option>
+                                        <option value="12:00 PM">12:00 PM</option>
+                                        <option value="1:00 PM">1:00 PM</option>
+                                        <option value="2:00 PM">2:00 PM</option>
+                                        <option value="3:00 PM">3:00 PM</option>
+                                        <option value="4:00 PM">4:00 PM</option>
+                                        <option value="5:00 PM">5:00 PM</option>
+                                        <option value="6:00 PM">6:00 PM</option>
+                                        <option value="7:00 PM">7:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="booking-message">Additional Notes (Optional)</label>
+                                <textarea id="booking-message" name="message"
+                                    placeholder="Any special requests or details..." rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-calendar-check"></i>
+                                Book Appointment
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="booking-info reveal-right">
+                        <div class="schedule-card">
+                            <div class="schedule-image">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80"
+                                    alt="Bridal Makeup">
+                            </div>
+                            <div class="schedule-content">
+                                <span class="schedule-label">Time Schedule</span>
+                                <h3 class="schedule-title">Opening Hours</h3>
+                                <p class="schedule-time"><i class="far fa-clock"></i> 11:00 AM to 8:00 PM</p>
+                                <p class="schedule-days"><i class="far fa-calendar"></i> Open All Days</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-quick">
+                            <h4>Quick Contact</h4>
+                            <a href="tel:+917602014901" class="contact-quick-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 76020 14901</span>
+                            </a>
+                            <a href="mailto:nawabnfs1@gmail.com" class="contact-quick-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>nawabnfs1@gmail.com</span>
+                            </a>
+                            <a href="https://wa.me/917602014901" class="contact-quick-item whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Chat on WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact <span class="text-accent">Us</span></h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal-left">
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <p>4th Floor, EMPEES Building<br>Bidhan Road, Siliguri</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <a href="tel:+917602014901">+91 76020 14901</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <a href="mailto:nawabnfs1@gmail.com">nawabnfs1@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/taniazmakeupartistry/" target="_blank"
+                                    class="social-link" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/taniasarkarpaul/" target="_blank" class="social-link"
+                                    aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@TaniaSarkarPaulMUA" target="_blank"
+                                    class="social-link" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="https://wa.me/917602014901" target="_blank" class="social-link"
+                                    aria-label="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container reveal-right">
+                        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xwpkjbvz"
+                            method="POST">
+                            <input type="hidden" name="_subject"
+                                value="New Contact Form Message - Tania's Makeup Studio">
+
+                            <div class="form-group">
+                                <label for="contact-name">Your Name</label>
+                                <input type="text" id="contact-name" name="name" placeholder="Full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Email Address</label>
+                                <input type="email" id="contact-email" name="email" placeholder="your@email.com"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject">Subject</label>
+                                <input type="text" id="contact-subject" name="subject" placeholder="How can we help?">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Message</label>
+                                <textarea id="contact-message" name="message" placeholder="Your message..." rows="5"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container reveal-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.2825684899376!2d88.42754931504397!3d26.71004378322668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4431f9f25b5d7%3A0x31e9de01e2bfb9e6!2sBidhan%20Road%2C%20Siliguri%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1633000000000!5m2!1sen!2sin"
+                        width="100%" height="400" style="border:0; border-radius: 16px;" allowfullscreen=""
+                        loading="lazy" title="Studio Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Logos -->
+        <section class="brands-section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Beauty Brands</span>
+                    <h2 class="section-title">We Trust for Every <span class="text-accent">Makeover</span></h2>
+                </div>
+
+                <div class="brands-carousel reveal-up">
+                    <div class="brands-track">
+                        <div class="brand-item">MAC</div>
+                        <div class="brand-item">Huda Beauty</div>
+                        <div class="brand-item">Charlotte Tilbury</div>
+                        <div class="brand-item">NARS</div>
+                        <div class="brand-item">Urban Decay</div>
+                        <div class="brand-item">Bobbi Brown</div>
+                        <div class="brand-item">Fenty Beauty</div>
+                        <div class="brand-item">Too Faced</div>
+                        <!-- Duplicate for seamless scroll -->
+                        <div class="brand-item">MAC</div>
+                        <div class="brand-item">Huda Beauty</div>
+                        <div class="brand-item">Charlotte Tilbury</div>
+                        <div class="brand-item">NARS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-text">Tania's</span>
+                        <span class="logo-subtext">Makeup Studio & Academy</span>
+                    </a>
+                    <p class="footer-description">
+                        Your perfect destination for captivating bridal looks. Experience luxury makeup services with
+                        15+ years of expertise.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/taniazmakeupartistry/" target="_blank"
+                            aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/taniasarkarpaul/" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@TaniaSarkarPaulMUA" target="_blank" aria-label="YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/917602014901" target="_blank" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Bridal Makeup</a></li>
+                        <li><a href="#services">Party Makeup</a></li>
+                        <li><a href="#services">Pre-wedding Makeup</a></li>
+                        <li><a href="#services">Hair Styling</a></li>
+                        <li><a href="#services">Nail Extension</a></li>
+                        <li><a href="#services">Makeup Training</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>4th Floor, EMPEES Building<br>Bidhan Road, Siliguri</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+917602014901">+91 76020 14901</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:nawabnfs1@gmail.com">nawabnfs1@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>11:00 AM - 8:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tania's Makeup Studio & Academy. All Rights Reserved.</p>
+                <p>Crafted with <i class="fas fa-heart text-accent"></i> in Siliguri</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/917602014901" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Message sent successfully!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
