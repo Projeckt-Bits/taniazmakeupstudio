@@ -430,7 +430,6 @@ select {
     height: 400vh;
     /* Extended height for scroll animation */
     width: 100%;
-    overflow: hidden;
 }
 
 .hero-canvas {
